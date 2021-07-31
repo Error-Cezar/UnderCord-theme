@@ -3,7 +3,7 @@
  * @author Error-Cezar
  * @authorId 362991657236561923
  * @version 1.0.0
- * @description a quick undertale themed BD theme that doesnt hurt Discord's look.
+ * @description a quick undertale themed BD theme that doesnt hurt Discord's look (not a lot but still).
  * @invite qtujWsBtwU
  * @website https://errorcezar.cf
  * @source https://github.com/Error-Cezar/UnderCord-theme
@@ -75,6 +75,18 @@
 .bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {
     display: none;
   }
+
+  /* role color pog */
+  span.roleColor-rz2vM0::after {
+    content: "";
+    background: currentColor;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.11;
+    left: 0;
+    top: 0;
+}
 
 /* fix threads */
 /* .scrollerContent-WzeG7R content-3YMskv {
